@@ -3,6 +3,9 @@ using SimpleJSON;
 using UnityEngine;
 using Your.Namespace.Here.UniqueStringHereToAvoidNamespaceConflicts.Lists;
 
+/**
+ * http 解析获取json数据
+ */
 public class HeroTowerRankListApi : BaseAPI
 {
     public HeroTowerRankListApi(GameObject gameObject) : base(gameObject)
@@ -37,6 +40,7 @@ public class HeroTowerRankListApi : BaseAPI
         return httpClientBuilder;
     }
 
+    //解析json数据
     public static MyListItemModel[] ParseResponse(string data)
     {
         if (string.IsNullOrEmpty(data))

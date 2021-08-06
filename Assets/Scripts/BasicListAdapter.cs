@@ -47,22 +47,31 @@ namespace Your.Namespace.Here.UniqueStringHereToAvoidNamespaceConflicts.Lists
 	{
 		//json文件
 		public  TextAsset jsonfile;
+		
 		//最上方本人排名
 		public Text selfpai;
+		
 		//最上方本人奖杯数
 		public Text selfcount;
+		
 		//最上方本人姓名
 		public Text selfname;
+		
 		//存储json数据
 		private  string moveSpriet;
+		
 		//存储jsonarray长度
 		private int count;
+		
 		//倒计时对象
 		public Text  dt ;
         //倒计时整型
 		private int dttt;
+		
        //倒计时字符串
 		private string dtt;
+		
+		//http请求类对象
 		private HeroTowerRankListApi gra;
 		public SimpleDataHelper<MyListItemModel> Data { get; private set; }
 		
@@ -201,8 +210,6 @@ namespace Your.Namespace.Here.UniqueStringHereToAvoidNamespaceConflicts.Lists
 		}
 		#endregion
 
-
-		
 		void RetrieveDataAndUpdate()
 		{
 			StartCoroutine(FetchMoreItemsFromDataSourceAndUpdate());
@@ -214,41 +221,6 @@ namespace Your.Namespace.Here.UniqueStringHereToAvoidNamespaceConflicts.Lists
 			
 			yield return new WaitForSeconds(.5f);
 			gra.Request();
-			// var n = JSONNode.Parse (moveSpriet);
-			//
-			//
-			//  var  li=new MyListItemModel[count];
-			// for (int i = 0; i < count; ++i)
-			// {
-			// 	var newItems = n["list"][i];
-			// 	var model = new MyListItemModel()
-			// 	{
-			// 		uid = newItems["uid"],
-			// 		nickName = newItems["nickName"],
-			// 		avatar = newItems["avatar"],
-			// 		trophy = newItems["trophy"],
-			// 		thirdAvatar = newItems["thirdAvatar"],
-			// 		onlineStatus = newItems["onlineStatus"],
-			// 		role = newItems["role"],
-			// 		abb = newItems["abb"]
-			// 	};
-			// 	li[i] = model;
-			// }
-   //          //数据排序
-			// for(int i=0;i<count-1;i++)
-			// {
-			// 	for(int j=count-1;j>=i+1;j--) 
-			// 	{
-			// 		if(li[j-1].trophy<li[j].trophy) {
-			// 			MyListItemModel tem=li[j-1];
-			// 			li[j-1]=li[j];
-			// 			li[j]= tem;
-			// 		}
-			//
-			// 	}
-			// }
-
-			
 		}
 
 		void OnDataRetrieved(MyListItemModel[] newItems)
@@ -259,7 +231,7 @@ namespace Your.Namespace.Here.UniqueStringHereToAvoidNamespaceConflicts.Lists
 	
 	public class MyListItemModel
 	{
-		//对应json数据
+	
 		
 		//玩家id
 		public string uid;
@@ -269,6 +241,7 @@ namespace Your.Namespace.Here.UniqueStringHereToAvoidNamespaceConflicts.Lists
 		
 		//玩家头像id，全部设置为userhead.png
 		public int avatar;
+		
 		//用户奖杯
 		public int trophy;
 		
