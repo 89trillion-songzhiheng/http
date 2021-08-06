@@ -15,4 +15,4 @@
    
 **流程图**
 
-![image](https://github.com/89trillion-songzhiheng/Ranks/blob/main/picture/liuchengtu.png)
+![image](https://github.com/89trillion-songzhiheng/http/blob/main/picture/http.png)
