@@ -29,6 +29,7 @@
 ```
   
 **界面结构**  
+```
  Hierarchy：  
     1.GameView  //展示排行榜的画布  
     1)OSA     //展示排行榜  
@@ -41,6 +42,7 @@
       8)TopRank  //头榜  
     2.StartView //初始页面的画布  
       1）BackImage //初始页面背景图  
+ ```
 **流程图**
 
 ![image](https://github.com/89trillion-songzhiheng/http/blob/main/Picture/Httpic.png)
