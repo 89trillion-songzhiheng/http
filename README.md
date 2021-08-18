@@ -8,25 +8,26 @@
 
     
 **目录结构**. 
+```
 ├── Config. 
-│   ├── RankListApi.cs. 
+│   ├── RankListApi.cs. //http读取数据
 │   └── RankListApi.cs.meta. 
 ├── Config.meta. 
 ├── Controller. 
-│   ├── BasicListAdapter.cs. 
+│   ├── BasicListAdapter.cs.  //osa解析并展示数据
 │   ├── BasicListAdapter.cs.meta. 
-│   ├── ViewChange.cs. 
+│   ├── ViewChange.cs.  //游戏场景变换
 │   ├── ViewChange.cs.meta. 
-│   ├── Window.cs. 
+│   ├── Window.cs.  //弹窗类
 │   └── Window.cs.meta. 
 ├── Controller.meta. 
 ├── Data. 
-│   ├── MyListItemModel.cs. 
+│   ├── MyListItemModel.cs. //对应json数据
 │   ├── MyListItemModel.cs.meta. 
-│   ├── MyListItemViewsHolder.cs. 
+│   ├── MyListItemViewsHolder.cs. //对应相应UI组件
 │   └── MyListItemViewsHolder.cs.meta. 
 └── Data.meta. 
-
+```
   
 **界面结构**
  Hierarchy：
