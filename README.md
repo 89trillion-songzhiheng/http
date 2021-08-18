@@ -43,4 +43,4 @@
       1）BackImage //初始页面背景图
 **流程图**
 
-![image](https://github.com/89trillion-songzhiheng/http/blob/main/Assets/Picture/Httpic.png)
+![image](https://github.com/89trillion-songzhiheng/http/blob/main/Picture/Httpic.png)
