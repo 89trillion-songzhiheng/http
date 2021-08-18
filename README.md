@@ -7,59 +7,26 @@
 4.使用osa插件完成元素服用
 
     
-**目录结构**
-├── Game
-│   ├── InitData
-│   │   ├── BasicListAdapter.cs //使用OSA，加载数据 
-│   │   ├── BasicListAdapter.cs.meta
-│   │   ├── MyListItemModel.cs //设置对应json的字段 
-│   │   ├── MyListItemModel.cs.meta
-│   │   ├── MyListItemViewsHolder.cs //设置对应的UI组件
-│   │   └── MyListItemViewsHolder.cs.meta
-│   ├── InitData.meta
-│   ├── Tools
-│   │   ├── TimeFormat.cs //时间格式化
-│   │   ├── TimeFormat.cs.meta
-│   │   ├── ViewChange.cs //场景转换控制类
-│   │   ├── ViewChange.cs.meta
-│   │   ├── Window.cs   //设置弹窗类
-│   │   └── Window.cs.meta
-│   └── Tools.meta
-├── Game.meta
-├── Http
-│   ├── RankListApi.cs  //http请求数据类
-│   ├── RankListApi.cs.meta
-│   ├── Tools
-│   │   ├── BaseAPI.cs
-│   │   ├── BaseAPI.cs.meta
-│   │   ├── ContentTypeUtil.cs
-│   │   ├── ContentTypeUtil.cs.meta
-│   │   ├── DefaultAPI.cs
-│   │   ├── DefaultAPI.cs.meta
-│   │   ├── HttpClient.cs
-│   │   ├── HttpClient.cs.meta
-│   │   ├── HttpClientBuilder.cs
-│   │   ├── HttpClientBuilder.cs.meta
-│   │   ├── IPlatformAPI.cs
-│   │   ├── IPlatformAPI.cs.meta
-│   │   ├── NetworkUtil.cs
-│   │   ├── NetworkUtil.cs.meta
-│   │   ├── Reg.cs
-│   │   ├── Reg.cs.meta
-│   │   ├── e392323d23a.cs
-│   │   └── e392323d23a.cs.meta
-│   └── Tools.meta
-├── Http.meta
-├── SimpJson
-│   ├── SimpleJSON.cs
-│   ├── SimpleJSON.cs.meta
-│   ├── SimpleJSONBinary.cs
-│   ├── SimpleJSONBinary.cs.meta
-│   ├── SimpleJSONDotNetTypes.cs
-│   ├── SimpleJSONDotNetTypes.cs.meta
-│   ├── SimpleJSONUnity.cs
-│   └── SimpleJSONUnity.cs.meta
-└── SimpJson.meta
+**目录结构**. 
+├── Config. 
+│   ├── RankListApi.cs. 
+│   └── RankListApi.cs.meta. 
+├── Config.meta. 
+├── Controller. 
+│   ├── BasicListAdapter.cs. 
+│   ├── BasicListAdapter.cs.meta. 
+│   ├── ViewChange.cs. 
+│   ├── ViewChange.cs.meta. 
+│   ├── Window.cs. 
+│   └── Window.cs.meta. 
+├── Controller.meta. 
+├── Data. 
+│   ├── MyListItemModel.cs. 
+│   ├── MyListItemModel.cs.meta. 
+│   ├── MyListItemViewsHolder.cs. 
+│   └── MyListItemViewsHolder.cs.meta. 
+└── Data.meta. 
+
   
 **界面结构**
  Hierarchy：
@@ -76,4 +43,4 @@
       1）BackImage //初始页面背景图
 **流程图**
 
-![image](https://github.com/89trillion-songzhiheng/http/blob/main/picture/Httppic.png)
+![image](https://github.com/89trillion-songzhiheng/http/blob/main/Assets/Picture/Httpic.png)
