@@ -58,30 +58,29 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Game\InitData\BasicListAdapter.cs" />
-     <Compile Include="Assets\Scripts\Game\InitData\MyListItemModel.cs" />
-     <Compile Include="Assets\Scripts\Game\InitData\MyListItemViewsHolder.cs" />
-     <Compile Include="Assets\Scripts\Game\Tools\TimeFormat.cs" />
-     <Compile Include="Assets\Scripts\Game\Tools\ViewChange.cs" />
-     <Compile Include="Assets\Scripts\Game\Tools\Window.cs" />
-     <Compile Include="Assets\Scripts\Http\RankListApi.cs" />
-     <Compile Include="Assets\Scripts\Http\Tools\BaseAPI.cs" />
-     <Compile Include="Assets\Scripts\Http\Tools\ContentTypeUtil.cs" />
-     <Compile Include="Assets\Scripts\Http\Tools\DefaultAPI.cs" />
-     <Compile Include="Assets\Scripts\Http\Tools\HttpClient.cs" />
-     <Compile Include="Assets\Scripts\Http\Tools\HttpClientBuilder.cs" />
-     <Compile Include="Assets\Scripts\Http\Tools\IPlatformAPI.cs" />
-     <Compile Include="Assets\Scripts\Http\Tools\NetworkUtil.cs" />
-     <Compile Include="Assets\Scripts\Http\Tools\Reg.cs" />
-     <Compile Include="Assets\Scripts\Http\Tools\e392323d23a.cs" />
-     <Compile Include="Assets\Scripts\SimpJson\SimpleJSON.cs" />
-     <Compile Include="Assets\Scripts\SimpJson\SimpleJSONBinary.cs" />
-     <Compile Include="Assets\Scripts\SimpJson\SimpleJSONDotNetTypes.cs" />
-     <Compile Include="Assets\Scripts\SimpJson\SimpleJSONUnity.cs" />
-     <None Include="Assets\OSA\Resources\OSA\Templates\ScriptsChunks\HeaderComment.txt" />
-     <None Include="Assets\OSA\Resources\OSA\Templates\Scripts\BasicListAdapter.txt" />
-     <None Include="Assets\OSA\Resources\OSA\Templates\Scripts\BasicGridAdapter.txt" />
-     <None Include="Assets\OSA\Docs\Manual link.txt" />
+     <Compile Include="Assets\Scripts\Config\RankListApi.cs" />
+     <Compile Include="Assets\Scripts\Controller\BasicListAdapter.cs" />
+     <Compile Include="Assets\Scripts\Controller\ViewChange.cs" />
+     <Compile Include="Assets\Scripts\Controller\Window.cs" />
+     <Compile Include="Assets\Scripts\Data\MyListItemModel.cs" />
+     <Compile Include="Assets\Scripts\Data\MyListItemViewsHolder.cs" />
+     <Compile Include="Assets\ThirdParty\Http\Tools\BaseAPI.cs" />
+     <Compile Include="Assets\ThirdParty\Http\Tools\ContentTypeUtil.cs" />
+     <Compile Include="Assets\ThirdParty\Http\Tools\DefaultAPI.cs" />
+     <Compile Include="Assets\ThirdParty\Http\Tools\HttpClient.cs" />
+     <Compile Include="Assets\ThirdParty\Http\Tools\HttpClientBuilder.cs" />
+     <Compile Include="Assets\ThirdParty\Http\Tools\IPlatformAPI.cs" />
+     <Compile Include="Assets\ThirdParty\Http\Tools\NetworkUtil.cs" />
+     <Compile Include="Assets\ThirdParty\Http\Tools\Reg.cs" />
+     <Compile Include="Assets\ThirdParty\Http\Tools\e392323d23a.cs" />
+     <Compile Include="Assets\ThirdParty\SimpJson\SimpleJSON.cs" />
+     <Compile Include="Assets\ThirdParty\SimpJson\SimpleJSONBinary.cs" />
+     <Compile Include="Assets\ThirdParty\SimpJson\SimpleJSONDotNetTypes.cs" />
+     <Compile Include="Assets\ThirdParty\SimpJson\SimpleJSONUnity.cs" />
+     <None Include="Assets\Resources\OSA\Resources\OSA\Templates\ScriptsChunks\HeaderComment.txt" />
+     <None Include="Assets\Resources\OSA\Resources\OSA\Templates\Scripts\BasicListAdapter.txt" />
+     <None Include="Assets\Resources\OSA\Resources\OSA\Templates\Scripts\BasicGridAdapter.txt" />
+     <None Include="Assets\Resources\OSA\Docs\Manual link.txt" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/Users/songzhiheng/htt/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
